@@ -40,9 +40,11 @@ const Navbar = () => {
             <ul className="app__navbar-links">
                 <li className="p__opensans"><a href="#home">Home</a></li>
                 <li className="p__opensans"><a href="#about">About</a></li>
-                <li className="p__opensans"><a href="#menu">Service</a></li>
-                <li className="p__opensans"><a href="#awards">Pages</a></li>
-                <li className="p__opensans"><a href="#contact">Pricing</a></li>
+                <li className="p__opensans"><a href="#service">Service</a></li>
+                <li className="p__opensans"><a href="#faqs">FAQs</a></li>
+                <li className="p__opensans"><a href="#team">Team</a></li>
+                <li className="p__opensans"><a href="#testimonals">Testimonals</a></li>
+                <li className="p__opensans"><a href="#pricing">Pricing</a></li>
             </ul>
             <div className="app__navbar-login">
                 <button type='button' className='custom__button'>Contact us</button>
@@ -55,9 +57,11 @@ const Navbar = () => {
                         <ul className="app__navbar-smallscreen_links">
                             <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
                             <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
-                            <li><a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a></li>
-                            <li><a href="#awards" onClick={() => setToggleMenu(false)}>Awards</a></li>
-                            <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
+                            <li><a href="#service" onClick={() => setToggleMenu(false)}>Service</a></li>
+                            <li><a href="#faqs" onClick={() => setToggleMenu(false)}>FAQs</a></li>
+                            <li><a href="#Team" onClick={() => setToggleMenu(false)}>Team</a></li>
+                            <li><a href="#testimonals" onClick={() => setToggleMenu(false)}>Testimonals</a></li>
+                            <li><a href="#pricing" onClick={() => setToggleMenu(false)}>Pricing</a></li>
                         </ul>
                     </div>
                 )}

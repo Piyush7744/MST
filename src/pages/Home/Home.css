@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   background-image: linear-gradient(to right, black, rgb(107, 18, 18));
+   background-image: linear-gradient(to right, rgb(15, 15, 15), rgb(59, 11, 65));
 }
 
 .app__wrapper_info{
@@ -44,7 +44,7 @@ p{
 }
 
 .custom__button {
-    background-color: red;
+    background-color: purple;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -60,7 +60,8 @@ p{
 
 .custom__button:hover {
     background-color: white;
-    color: red;
+    color: purple;
+    
 }
 @media screen and (min-width: 2000px) {
 
