@@ -43,8 +43,6 @@ const Navbar = () => {
                 <li className="p__opensans"><a href="#service">Service</a></li>
                 <li className="p__opensans"><a href="#faqs">FAQs</a></li>
                 <li className="p__opensans"><a href="#team">Team</a></li>
-                <li className="p__opensans"><a href="#testimonals">Testimonals</a></li>
-                <li className="p__opensans"><a href="#pricing">Pricing</a></li>
             </ul>
             <div className="app__navbar-login">
                 <button type='button' className='custom__button'>Contact us</button>
@@ -60,8 +58,6 @@ const Navbar = () => {
                             <li><a href="#service" onClick={() => setToggleMenu(false)}>Service</a></li>
                             <li><a href="#faqs" onClick={() => setToggleMenu(false)}>FAQs</a></li>
                             <li><a href="#Team" onClick={() => setToggleMenu(false)}>Team</a></li>
-                            <li><a href="#testimonals" onClick={() => setToggleMenu(false)}>Testimonals</a></li>
-                            <li><a href="#pricing" onClick={() => setToggleMenu(false)}>Pricing</a></li>
                         </ul>
                     </div>
                 )}
